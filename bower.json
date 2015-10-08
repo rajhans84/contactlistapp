@@ -1,0 +1,36 @@
+{
+  "name": "Orion Health Test",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rajhans84/contactlistapp",
+  "authors": [
+    "Hans Raj Bhardwaj <rajhans.nz@gmail.com>"
+  ],
+  "description": "Simple Web App to display contact list",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Contact",
+    "App"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-filter": "~0.5.7",
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-loading-spinner": "~0.0.3",
+    "spin.js": "~2.3.2",
+    "bootstrap": "~3.3.5",
+    "modernizer": "~2.8.2",
+    "ng-table": "~0.8.3",
+    "underscore": "~1.8.3",
+    "restangular": "~1.5.1"
+  }
+}
