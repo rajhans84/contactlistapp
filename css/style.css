@@ -1,0 +1,41 @@
+.card {
+    width: 700px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0) url("../images/bg.jpg") no-repeat scroll 0 0 / 700px 350px ;
+    padding:40px  10px;
+}
+.namebox{
+}
+.firstname{
+    font: 36px/36px "Arial";
+    color: #ff0000;
+    display: inline-block;
+}
+.lastname{
+    font: 36px/36px "Arial";
+    color: #000000;
+    display: inline-block;
+}
+.catchphrase{
+
+}
+.otherdetails{
+    border-left: solid;
+    padding-left: 25px;
+}
+
+.txtReflect {
+    background-color: transparent;
+    color: #3b3b3b;
+    text-shadow: 1px 1px 3px #3b3b3b;
+    font-size: .85em;
+    font-weight: 300;
+}
+.txtReflectItem1 {
+    transform: skewX(-45deg) skewY(0deg) rotateX(180deg); /* rotateX isn't supported lte IE9 and Opera */
+    -webkit-transform: skewX(-45deg) skewY(0deg) rotateX(180deg);
+    -moz-transform: skewX(-45deg) skewY(0deg) rotateX(180deg);
+    -ms-transform: skewX(-45deg) skewY(0deg) rotateX(180deg);
+    -o-transform: skewX(-45deg) skewY(0deg) rotate(180deg);
+    margin-left: -10px; /* adjust the margin as the text is skewed to the left. */
+}

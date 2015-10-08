@@ -1,0 +1,19 @@
+<div class="row card">
+
+<div class="col-xs-8">
+    <div class="row">
+        <div class=""><div class="namebox text-center txtReflect "><div class="firstname span6">{{contact.name | firstNames}}</div><div class="lastname span6">{{contact.name | surname}}</div></div></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h3 class="text-center"><div class="catchphrase span12">{{contact.company.catchPhrase}}</div></h3></div>
+    </div>
+</div>
+    <div class="col-xs-4 otherdetails">
+        <div class="row">{{contact.name}}</div>
+        <div class="row">{{contact.address.city}}</div>
+        <div class="row">{{contact.company.bs}}</div>
+        <div class="row"><b>Phone:</b> <i>{{contact.phone}}<i/></div>
+        <div class="row"><b>Email:</b> <i>{{contact.email}}</i></div>
+        <div class="row"><b>URL:</b> <i>{{contact.website}}</i></div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="row ">
+    <div class="col-xs-4">
+        <table ng-table="tableParams" class="table" show-filter="false">
+            <tr ng-repeat="letter in $data | unique:'alpha'">
+                <td title="'Alphabet'" >
+                    {{letter.alpha}} </td>
+                <td title="'Total Records'">
+                    {{letter.total}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
